@@ -27,6 +27,7 @@ export type TactSource = {
     content: string;
     type: "code" | "abi";
 };
+
 export interface SourcesData {
     files: (TactSource | FuncSource)[];
     compiler: "func" | "tact" | "fift";
